@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Taniti | Booking Request</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Style Sheet -->
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand>img" href="index.html"><img src="images/taniti-logo.png"  height="50" width="auto"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore the Island
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="dining.html">Dining</a></li>
+              <li><a href="lodging.html">Lodging</a></li>
+            </ul>
+          </li>
+        <li  class="active"><a href="/book-now.html">Book Now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="row display-flex row-no-gutters">
+    <div class="col-lg-6 col-sm-12">
+      <div class="box">
+          <img src="images/island-jcob-nasyr-unsplash.jpg" class="img-responsive">
+      </div>
+  
+      </div>
+  
+       <div class="col-lg-6 col-sm-12 col-xs-12">
+          <div class="box aligner-center callout-box">
+              <h1>Book your stay today. We can't wait to connect with you.</h1>
+          </div>
+      </div>
+  </div>
+  
+  <hr>
+  
+  <div class="container text-center">    
+    <h2>Contact us for a booking agent to help.</h2>
+    <br>
+    <div class="row display-flex">
+          <div class="col-lg-12 col-sm-12 col xs-12">
+              Planning a trip can be hard. Our booking agents are happy to coordinate as much or as little as you need.
+          </div>
+      </div>
+ 
+  
+    <hr>
+    <form>
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Email:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+            Select all that apply.<br>
+            <label><input type="checkbox" value="">Travel</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Lodging</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" value="" disabled>Activities</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" value="" disabled>Dining and Reservations</label>
+        </div>
+        <div class="form-group">
+            <label for="comment">Any additional information?</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        <a href="#" type="submit" class="btn">Submit</a>
+    </form>
+
+</div>
+  <footer class="container-fluid">
+    <p>&copy; Taniti Travel Bureau 2023<br>
+      44 Main St., Taniti 39204 | +1(999) 999-9999 | travel@taniti.com
+    </p>
+  </footer>
+  
+  </body>
+  </html>
+  
